@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BL.AddressData">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>AddressData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.AddressService">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddressService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.AuthenticationData">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAiAAAAAEAABAAAAAQA=</HashCode>
+      <FileName>AuthenticateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.ChiefsupervisorDetails">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ChiefsupervisorDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.DetectImageService">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEIAAAAAAAAAAAAAAAAABAAEAAAAAAAAA=</HashCode>
+      <FileName>DetectImageService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.EmployeeData">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAoAAAAAAAAAAgAAAAAAAAAAAAAABQAAAAA=</HashCode>
+      <FileName>EmployeeData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.EmployeeService">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAACAAABEAAAA=</HashCode>
+      <FileName>EmployeeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.Engineer">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAgAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engineer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.FilesService">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAEAEAAAAAAAAIAQAAAA=</HashCode>
+      <FileName>FilesService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.ImageData">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAUAAAAA=</HashCode>
+      <FileName>ImageData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.ImageService">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.Permit">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAA=</HashCode>
+      <FileName>Permit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.PermitService">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>PermitService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.ReportData">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAAACAAAAAAACAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>ReportData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.ReportService">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBIAAQAAAAAAAAAAkEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReportService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.User">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAACIACCAAgAQAAAAAEQAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.UserService">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACACgAACAAAAgQAAAEAIAAAAAAIQAAAAAAAABA=</HashCode>
+      <FileName>UserService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.ProjectManager">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYRE0DAAAGAYBiBAAEAAkDAoAAEgQARACAAowAAABA=</HashCode>
+      <FileName>ProjectManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userService" />
+      <Field Name="employeeService" />
+      <Field Name="reportService" />
+      <Field Name="permitService" />
+      <Field Name="addressService" />
+      <Field Name="imageService" />
+      <Field Name="filesService" />
+      <Field Name="detectImageService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BL.Paths">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Paths.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL.Roles">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Roles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BL.Status">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

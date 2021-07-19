@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="SupervisorClientUI.MasterPage" %>
+    
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="Scripts.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <span style="font-size: 30px; cursor: pointer; color: black" onclick="openNavmenu()">&#9776;</span>
+        <div class="sidenavemenu" id="mySideNavmenu">
+            <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+           
+            <a href="ProfileWebForm.aspx">Profile</a>
+            <a href="AddPermitWebForm.aspx">Add a permit</a>
+            <a href="SendReportWebForm.aspx">Send a message</a>
+            <a href="AllReportsWebForm.aspx">My reports</a>
+            <a href="ChangePasswordWebForm.aspx">Change password</a>
+            <a href="ChangeStatusOfEngineerFrom.aspx">Change engineer status</a>
+            <a href="ViewPermitsInAddressWebForm.aspx">View permits</a>
+            <a href="LoginWebForm.aspx">Log out</a>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
