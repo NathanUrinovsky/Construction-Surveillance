@@ -6,7 +6,7 @@ An engineer can add an address that still doesn't exist in the system's database
 A supervisor can mainly add new permits and access all the permits that are stored in the system's database.
 ## General review
 ### Engineer side
-As previously mentioned, on the engineer's side one can mainly detect buildings in an image in a new address that they add, or an address that alreayd exists, alongside checking older images and sending reports to their supervisor.
+As previously mentioned, on the engineer's side one can mainly detect buildings of an image in a new address that they want to add, or in an address that already exists and compare to the previous image from the same address, alongside checking older images and sending reports to their supervisor.
 
 ![Screenshot (709)](https://user-images.githubusercontent.com/54028042/126899234-63ef5805-791a-4e03-827a-24f5447ff2af.png)
 Here, we can see a new address that has been added, and an uploaded image with the detected buildings in it. The engineer can either save it, so that both the address and the image will be stored, or clear the entire page.
