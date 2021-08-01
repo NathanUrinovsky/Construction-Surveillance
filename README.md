@@ -29,10 +29,10 @@ A supervisor can also activate or deactivate the account of an engineer who work
 ![Screenshot (640)](https://user-images.githubusercontent.com/54028042/127507155-e111ca12-495d-40bd-9954-7d1d06b2a301.png)
 
 And, of course, they can add a permit.
-## Installation and more
+## Installations and more
 When cloning this project, please make sure all of the project's folders are inside a folder called "Project". Make sure this folder is under drive C.\
 Also, in order to perform the detection you need the trained model file, which you can download right [here](https://drive.google.com/file/d/15T92FcBdU5371rgYS91RdcfZB7mSAlUK/view?usp=sharing). The file should be in the python-server-files folder.\
---dataset download thing\
+If you'd like to train a model yourself, you can take the images I used for training mine from [here](https://www.kaggle.com/kbhartiya83/swimming-pool-and-car-detection)\
 In case you don't have anaconda installed, please download [anaconda](https://www.anaconda.com/products/individual) (go all the way to the bottom of the page).\
 When anaconda is installed and create a new enviroment with the CPU-only release of TensorFlow, recommended for beginners, as explained [here](https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/), and then activate the environment as you'll be told in anaconda prompt.\
 Finally, install all the pyton modules required for running the project properly, by using the command pip install name_of_the_module.\
@@ -43,4 +43,7 @@ Install it as the following says:
 2. Download the folder itself.
 3. Extract it.
 4. Open it.
-5. Copy the folder named "keras"
+5. Copy the folder named "keras_retinanet"
+6. Open the folder where anaconda is install on your computer. Inside this folder to go envs\environment_name\Lib\site-packages
+7. Paste the folder you copied
+8. You are good to go!
