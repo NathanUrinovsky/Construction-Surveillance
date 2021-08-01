@@ -30,7 +30,7 @@ A supervisor can also activate or deactivate the account of an engineer who work
 
 And, of course, they can add a permit.
 ## Installations and more
-When cloning this project, please make sure all of the project's folders are inside a folder called "Project". Make sure this folder is under drive C.\
+When cloning this project, please make sure all of the project's folders are inside a folder called "Project". Make sure this folder is under drive C:/.\
 Also, in order to perform the detection you need the trained model file, which you can download right [here](https://drive.google.com/file/d/15T92FcBdU5371rgYS91RdcfZB7mSAlUK/view?usp=sharing). The file should be in the python-server-files folder.\
 If you'd like to train a model yourself, you can take the images I used for training mine from [here](https://www.kaggle.com/kbhartiya83/swimming-pool-and-car-detection)\
 In case you don't have anaconda installed, please download [anaconda](https://www.anaconda.com/products/individual) (go all the way to the bottom of the page).\
