@@ -58,15 +58,6 @@ class DetectionService:
             caption = "{} {:.3f}".format(labels_to_names[label], score)
             draw_caption(draw, b, caption)
 
-        """
-        base_path = "C:\\requested_files\\"
-        base_name = os.path.basename(original_image_path)
-
-        base_path = "C:\\savenewimages\\"
-        extension = os.path.splitext(base_name)[1]
-        new_file_name = str(uuid.uuid1())
-        new_image_path = base_path + new_file_name + extension
-        """
         extension = "." + str(original_image_path).rsplit('.')[1]
         last_slash_index = str(original_image_path).rfind('\\')
         save_directory = str(original_image_path)[0:last_slash_index]
