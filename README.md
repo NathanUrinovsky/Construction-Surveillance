@@ -44,6 +44,6 @@ Install it as the following says:
 3. Extract it.
 4. Open it.
 5. Copy the folder named "keras_retinanet"
-6. Open the folder where anaconda is install on your computer. Inside this folder to go envs\environment_name\Lib\site-packages
+6. Open the folder where anaconda is installed on your computer. Inside this folder to go envs\environment_name\Lib\site-packages
 7. Paste the folder you copied
 8. You are good to go!
