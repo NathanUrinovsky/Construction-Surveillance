@@ -1,5 +1,5 @@
 UPLOAD_FOLDER = "C:\\requested_files\\"
-MODEL_PATH = "C:\\Project\\python\\weights-27-GPU.h5"
+MODEL_PATH = "C:\\Project\\python-server-files\\weights-27-GPU.h5"
 DETECTED_FILE_NAME = "detected-"
 ALLOWED_EXTENSIONS = {'jpg', 'png', 'jpeg'}
 DETECTION_CONFIDENCE_THRESHOLD = 0.55
