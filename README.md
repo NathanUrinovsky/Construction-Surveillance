@@ -46,4 +46,5 @@ Install it as the following says:
 5. Copy the folder named "keras_retinanet"
 6. Open the folder where anaconda is installed on your computer. Inside this folder to go envs\environment_name\Lib\site-packages
 7. Paste the folder you copied
-8. You are good to go!
+8. In the folder you copied, enter the folder called "utils", open the file anchors.py, and delete line number 20 (causes many troubles and prevents running the detection)
+9. You are good to go!
