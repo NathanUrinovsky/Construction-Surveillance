@@ -47,4 +47,4 @@ Install it as the following says:
 6. Open the folder where anaconda is installed on your computer. Inside this folder to go envs\environment_name\Lib\site-packages
 7. Paste the folder you copied
 8. In the folder you copied, enter the folder called "utils", open the file anchors.py, and delete line number 20 (causes many troubles and prevents running the detection)
-9. You are good to go!
+9. You are good to go! (Now every time you will want to use the project, simply activate the anaconda environment you created, and of course run http_handler.py)
